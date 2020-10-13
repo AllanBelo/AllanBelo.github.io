@@ -269,23 +269,20 @@
 <li><p><a href="https://www.postman.com/downloads/">Postman</a></p></li>
 </ul>
 
-<p>Para facilitar sua vida vou passar um lista de extenções para instalar no VS Code:</p>
+<p>Para facilitar sua vida, vou passar uma lista de extensões para instalar no VS Code:</p>
 
-<ul>
-<li><p>C# (Suporte a edição C# como sintax, intellisense, suporte a depuração e mais&hellip;)</p></li>
+<p>C# (Suporte a edição C# como sintaxe, intellisense, suporte a depuração e mais…)</p>
 
-<li><p>C# Extensions (Permite que você adicione classes, interfaces, inicialize contrutores&hellip; de form facil e rápida)</p></li>
+<p>C# Extensions (Permite que você adicione classes, ‘interfaces’, inicialize construtores… de forma fácil e rápida)</p>
 
-<li><p>C# FixFormat (Formata o código)</p></li>
+<p>C# FixFormat (Formata o código)</p>
 
-<li><p>Visual Studio Keymap (Permite que você use os atalhos de teclado do visual studio.)</p></li>
+<p>Visual Studio Keymap (Permite que você use os atalhos de teclado do visual studio.)</p>
 
-<li><p>vscode-icons (Icones para o Explorer do VS Code)</p></li>
-</ul>
+<p>vscode-icons (Icones para o Explorer do VS Code)</p>
 
-<h3 id="requisitos-da-aplicação">Requisitos da aplicação:</h3>
-
-<p>Diagrama de classes (Não se preocupe se não entende os diagramas, vou detalhar todo o desenvolvimento a seguir):
+<p>Requisitos da aplicação:
+Diagrama de classes (Não se preocupe se não entende os diagramas, vou detalhar todo o desenvolvimento a seguir):
 <figure class="figure ">
     
     
@@ -335,13 +332,13 @@ Diagrama banco de dados:
 </figure></p>
 
 <p>Tudo instalado!? Já deu um over view no projeto!? Base de dados com tabela people criada!? Então abra o VS Code,
-tecle <strong>ctrl + shift + &ldquo;</strong> para abrir o terminal;</p>
+tecle <strong>ctrl + shift + &ldquo;</strong> para abrir o terminal:</p>
 
 <p>No terminal, digite:
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">dotnet new webapi -o NomeProjeto &gt; <span class="o">(</span>Enter<span class="o">)</span>
 <span class="nb">cd</span> NomeProjeto &gt; <span class="o">(</span>Enter<span class="o">)</span></code></pre></div></p>
 
-<p>Vamos instalar o pacote do conector para o banco
+<p>Vamos instalar o pacote do conector para o banco:
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">dotnet add package MySqlConnector --version 1.0.1 <span class="o">(</span>Enter<span class="o">)</span>
 code -r ../NomeProjeto <span class="o">(</span>Enter<span class="o">)</span></code></pre></div></p>
 
@@ -389,7 +386,7 @@ Vamos criar a interface para a classe PeopleRepository (Já já vamos cria-lá),
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-Tambem na pasta Repository, crie a classe PeopleRepository (Essa é a nossa classe mais complexa, por fins didaticos deixei bem comentada):
+Também na pasta Repository, crie a classe PeopleRepository (Essa é a nossa classe mais complexa, por fins didáticos deixei bem comentada):
 <div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="k">using</span> <span class="nn">ApiDotNetCore.Model</span><span class="p">;</span>
 <span class="k">using</span> <span class="nn">MySqlConnector</span><span class="p">;</span>
 
@@ -453,7 +450,7 @@ Precisamos criar a string de conexão com o Banco de Dados, abra o arquivo appse
   <span class="s2">&#34;AllowedHosts&#34;</span><span class="o">:</span> <span class="s2">&#34;*&#34;</span>
 <span class="p">}</span>
 </code></pre></div>
-Agora vamos passar a string para classe PeopleRepository, abra a classe Starup e procure o metodo ConfigureServices e faça o seguinte:
+Agora vamos passar a string para classe PeopleRepository, abra a classe Starup e procure o método ConfigureServices e faça o seguinte:
 <div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"> <span class="k">public</span> <span class="k">void</span> <span class="n">ConfigureServices</span><span class="p">(</span><span class="n">IServiceCollection</span> <span class="n">services</span><span class="p">)</span>
  <span class="p">{</span>           
     <span class="n">services</span><span class="p">.</span><span class="n">AddControllers</span><span class="p">();</span>
@@ -493,8 +490,8 @@ Dentro da pasta Controllers crie a classe PeopleController:
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
- Bora testar a API? Tecle <strong>F5</strong>
- , abra o Postman, escolha o verbo http get, digite o endpoint na barra de endereço: <a href="https://localhost:5001/api/people/{ID">https://localhost:5001/api/people/{ID</a> do usuário} e tecle <strong>Enter</strong> e se tudo ocorreu bem, a API vai retornar o JSON com os dados requisitados:
+Bora? Testar a API, Tecle <strong>F5</strong>
+, abra o Postman, escolha o verbo http get, digite o endpoint na barra de endereço: <a href="https://localhost:5001/api/people/{ID">https://localhost:5001/api/people/{ID</a> do usuário} e tecle <strong>Enter</strong> e se tudo ocorreu bem, a API vai retornar o JSON com os dados requisitados:
  <figure class="figure ">
     
     

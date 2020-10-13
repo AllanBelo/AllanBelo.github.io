@@ -277,7 +277,7 @@ Então&hellip; o controle de versão é feito para evitar isso 😍.</p>
 <li><p>Crie uma conta no <a href="https://github.com">GitHub</a>;</p></li>
 
 <li><p>Crie uma chave SSH para conectarmos seu Git no GitHub, digite:
-<div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">ssh</span><span class="p">-</span><span class="n">keygen</span> <span class="p">-</span><span class="n">t</span> <span class="n">rsa</span> <span class="p">-</span><span class="n">b</span> <span class="m">4096</span> <span class="p">-</span><span class="n">C</span> <span class="s">&#34;seu email usado no GitHub&#34;</span>
+<div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">ssh</span><span class="p">-</span><span class="n">keygen</span> <span class="p">-</span><span class="n">t</span> <span class="n">rsa</span> <span class="p">-</span><span class="n">b</span> <span class="m">4096</span> <span class="p">-</span><span class="n">C</span> <span class="s">&#34;seu e-mail usado no GitHub&#34;</span>
 </code></pre></div></p></li>
 
 <li><p>Após executar o comando acima, tecle &lsquo;Enter&rsquo; novamente para salvar a chave em &ldquo;/Users/SeuUsuario/.ssh/id_rsa&rdquo; (Linux: &ldquo;/home/SeuUsuario/.ssh/id_rsa&rdquo;);</p></li>
@@ -289,7 +289,7 @@ Então&hellip; o controle de versão é feito para evitar isso 😍.</p>
 <li><p>Abra o GitHub &gt; Settings &gt; SSH &gt; New SSH key &gt; Digite titulo que quiser &gt; Cole a chave em Key &gt; Add SSH Key, com isso temos uma chave que vincula sua instalação Git com o seu GitHub;</p></li>
 </ul>
 
-<p>Bora criar um repositório no GitHub:</p>
+<p>Bora? Criar um repositório no GitHub:</p>
 
 <ul>
 <li>Clique no ícone &lsquo;+&rsquo; (localizado no canto superior direito) &gt; escolha &lsquo;New Repository&rsquo; &gt; Digite um nome para o repositório (Nemeie com o nome do projeto)&gt; defina se vai ser Publico ou Privado &gt; Clique em &lsquo;Create repository&rsquo;,</li>
@@ -309,12 +309,12 @@ Uso: Criar um repositório (Esse aqui tu já  usaste hein).</p>
 
 <p><div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">git</span> <span class="n">clone</span> <span class="n">url</span> <span class="n">ou</span> <span class="n">diretório</span>
 </code></pre></div>
-Uso: Copiar um repositório já existente, inclisive externo(GitHub, Bitbucket) para o seu repositório atual.
+Uso: Copiar um repositório já existente, inclusive externo(GitHub, Bitbucket) para o seu repositório atual.
 Obs.: O git clone  depende do init, ou seja, você tem que criar um repositório e depois clonar algo para dentro dele.</p>
 
 <p><div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">git</span> <span class="k">add</span> <span class="n">arquivo</span><span class="p">.</span><span class="n">extenção</span>
 </code></pre></div>
-Uso: Depois que você fez a alteração que queria (Seja alterar um arquivo existente ou adição de um novo arquivo) você da um add para adicionar o arquivo ao staging (uma boa analogia para entender o staging e pensar no conceito de buffer, o arquivo fica ali temporariamente ate receber uma confirmação para então sim ser efetivamente ser armazenado como uma versão e ser registrado nos históricos de commit)</p>
+Uso: Depois que você fez a alteração que queria (Seja alterar um arquivo existente ou adição de um novo arquivo) você utiliza o add para adicionar o arquivo ao staging (uma boa analogia para entender o staging é pensar no conceito de buffer, o arquivo fica ali temporariamente ate receber uma confirmação para então ser efetivamente armazenado como uma versão e ser registrado nos históricos de commit)</p>
 
 <p><div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">git</span> <span class="n">remote</span> <span class="k">add</span> <span class="n">arquivo</span><span class="p">.</span><span class="n">extenção</span> <span class="n">url</span>
 </code></pre></div>
@@ -322,7 +322,7 @@ Uso: Esse aqui você sabe né? Adiciona ao staging do repositório remoto.</p>
 
 <p><div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">git</span> <span class="n">commit</span> <span class="p">-</span><span class="n">m</span> <span class="s">&#34;Implementação funcionalidade y&#34;</span>
 </code></pre></div>
-Uso: Aqui que a mágica acontece, cada commit que você faz gera uma versão integral do projeto no repositório local, os commits ficam organizados em uma linha do tempo onde você pode nevegar entre todos os commits já feitos, e é sempre bom colocar uma mensagem de commit sucinta e clara já que você pode voltar versões anteriores é importante você saber o que é cada commit.</p>
+Uso: Aqui que a mágica acontece, cada commit que você faz gera uma versão integral do projeto no repositório local, os commits ficam organizados em uma linha do tempo onde você pode navegar entre todos os commits já feitos, e é sempre bom colocar uma mensagem de commit sucinta e clara já que você pode voltar versões anteriores é importante você saber o que é cada commit.</p>
 
 <p><div class="highlight"><pre class="chroma"><code class="language-C#" data-lang="C#"><span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
 </code></pre></div>
