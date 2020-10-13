@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MariaDB on Blog Allan Belo</title>
+    <link>https://allanbelo.github.io/en/tags/mariadb/</link>
+    <description>Recent content in MariaDB on Blog Allan Belo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Oct 2020 16:09:32 -0300</lastBuildDate><atom:link href="https://allanbelo.github.io/en/tags/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#3- API .NET Core &#43; ADO.Net &#43; MariaDB</title>
+      <link>https://allanbelo.github.io/en/api.netcore_ado.net_mariadb/</link>
+      <pubDate>Sun, 11 Oct 2020 16:09:32 -0300</pubDate>
+      
+      <guid>https://allanbelo.github.io/en/api.netcore_ado.net_mariadb/</guid>
+      <description>In this tutorial, they make REST API, with .NET Core framework, ADO.NET to data base connection and DBMS(Data base management system) MariaDB</description>
+    </item>
+    
+  </channel>
+</rss>

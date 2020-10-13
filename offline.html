@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <title>Você esta sem Internet! 😵</title>
+        <style type="text/css">
+            html, body {
+                height: 100%;
+            }
+            body {
+                font-family: Courier New, sans-serif;
+                margin: 0;
+                background-color: #252525;
+            }
+            h1 {
+                font-weight: bold;
+                font-size: 5em;
+                color:#fff;
+            }
+            .flex-container {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .flex-item {
+                text-align: center;
+            }
+            a:link {
+                color: #fff;
+            }
+            a:visited {
+                color:#fff;
+            }
+            @media only screen and (max-width: 768px) {
+                h1 {
+                    font-size: 3.5em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="flex-container">
+            <h1 class="flex-item">Você esta sem Internet!</h1>
+            <h1 class="flex-item"> 😵 </h1>
+            <p class="flex-item"><strong><a href="/">Volte para Home page </a></strong></p>
+        </main>
+    </body>
+</html>

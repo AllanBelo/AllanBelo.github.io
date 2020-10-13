@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Allan Belo</title>
+    <link>https://allanbelo.github.io/en/</link>
+    <description>Recent content on Blog Allan Belo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Oct 2020 16:09:32 -0300</lastBuildDate><atom:link href="https://allanbelo.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#3- API .NET Core &#43; ADO.Net &#43; MariaDB</title>
+      <link>https://allanbelo.github.io/en/api.netcore_ado.net_mariadb/</link>
+      <pubDate>Sun, 11 Oct 2020 16:09:32 -0300</pubDate>
+      
+      <guid>https://allanbelo.github.io/en/api.netcore_ado.net_mariadb/</guid>
+      <description>In this tutorial, they make REST API, with .NET Core framework, ADO.NET to data base connection and DBMS(Data base management system) MariaDB</description>
+    </item>
+    
+    <item>
+      <title>#2- Git &#43; GitHub: Branch</title>
+      <link>https://allanbelo.github.io/en/2git-github-branch/</link>
+      <pubDate>Sun, 27 Sep 2020 20:42:05 -0300</pubDate>
+      
+      <guid>https://allanbelo.github.io/en/2git-github-branch/</guid>
+      <description>A simply explain of branch, branch is a copy of master(Master is a principal branch) repository and all modifications done in branch not effective in es&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>#1- Git &#43; GitHub: Whats is this and how to use?</title>
+      <link>https://allanbelo.github.io/en/1essencial-github/</link>
+      <pubDate>Thu, 10 Sep 2020 20:11:32 -0300</pubDate>
+      
+      <guid>https://allanbelo.github.io/en/1essencial-github/</guid>
+      <description>Is a distributed control version  system, multiplataform, free an open source made by Linus Torvalds, Ok? Whats is control version :confounded:? Is source code change man&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on Blog Allan Belo</title>
+    <link>https://allanbelo.github.io/tags/api/</link>
+    <description>Recent content in API on Blog Allan Belo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 11 Oct 2020 16:09:32 -0300</lastBuildDate><atom:link href="https://allanbelo.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#3- API .NET Core &#43; ADO.Net &#43; MariaDB</title>
+      <link>https://allanbelo.github.io/api.netcore_ado.net_mariadb/</link>
+      <pubDate>Sun, 11 Oct 2020 16:09:32 -0300</pubDate>
+      
+      <guid>https://allanbelo.github.io/api.netcore_ado.net_mariadb/</guid>
+      <description>Nesse tutorial vamos fazer uma API REST, para isso vamos usar o framework .NET Core, conjunto de classe ADO.NET para fazer a conexão com o banco de dados e o SGBD(Sistema de gerenciamento de banco de dados) MariaDB</description>
+    </item>
+    
+  </channel>
+</rss>
